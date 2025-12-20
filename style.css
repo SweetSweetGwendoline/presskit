@@ -152,7 +152,8 @@ nav a {
     object-fit: contain;
     background: #1a1a1a;
     padding: 20px;
-    height: 100px;
+    height: 150px;
+    width: 280px;
 }
 
 /* Video */
@@ -209,4 +210,5 @@ footer {
         text-align: center;
         padding: 40px 0;
     }
+
 }
