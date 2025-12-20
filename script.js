@@ -62,7 +62,7 @@ async function loadPresskit() {
         downloadsList.innerHTML = `<li><a href="${data.downloads.presskit}">Download Presskit (.zip)</a></li>`;
 
         // Footer
-        document.getElementById('footer-copy').textContent = `&copy; ${new Date().getFullYear()} ${data.developer.name}`;
+        document.getElementById('footer-copy').textContent = `\u00A9 ${new Date().getFullYear()} ${data.developer.name}`;
 
     } catch (error) {
         console.error("Error loading presskit data:", error);
@@ -71,4 +71,5 @@ async function loadPresskit() {
 
 
 window.addEventListener('DOMContentLoaded', loadPresskit);
+
 
